@@ -4,8 +4,6 @@ var dbURI = "mongodb+srv://nidaekinci:NidaEkinci.2032@cluster0.15izu.mongodb.net
 mongoose.connect(dbURI); 
 
 // mongoose.connection.on(); //bağlanıp bağlanmadığı kontrolü ve bağlandığında yapılması istenilen işlemlerin belirtileceği yer
-
-
 mongoose.connection.on("connected", function(){
     console.log(dbURI + "Bağlandı")
 });
