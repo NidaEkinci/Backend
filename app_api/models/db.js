@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var dbURI = "mongodb+srv://nidaekinci:NidaEkinci.2032@cluster0.15izu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; //başta böyle db oluşturulmamıştı (bağlantı adresimiz)
+var dbURI = "mongodb+srv://nidaekinci:nida@cluster0.15izu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; //başta böyle db oluşturulmamıştı (bağlantı adresimiz)
 //mongodb cloud kullanırken değiştiremmeiz gereken adres
 mongoose.connect(dbURI); 
 
