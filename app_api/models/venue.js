@@ -9,7 +9,7 @@ var hour = new  mongoose.Schema({
 
 var comment = new  mongoose.Schema({
     author : {type:String, required:true},
-    rating : {type:Number, min:0, max:5, default:0},
+    rating : {type:Number, default:0, min:0, max:5},
     text : {type:String, required:true},
     date : {type:Date, default:Date.now} //dışarıdan girilen bilgi değil required:false olabilir
 });
@@ -24,5 +24,5 @@ var venue = new mongoose.Schema({
     comments : [comment] //döküman tabanlı ilişki modelini kurduk
 }); //yeni şema oluşturduk
 
-mongoose.model("venue", venue,"Venues");
+mongoose.model("venue", venue,"venues");
 //(tablodaki her bir satırın adı, tablo adı, koleksiyon adı)
