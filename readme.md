@@ -2,6 +2,6 @@
 https://backend-api-five-rosy.vercel.app/
 
 ## Postman Run Results
-assets/postman-result1.jpeg
-assets/postman-result2.jpeg
-assets/postman-result3.jpeg
+![Postman Sonuçları 1](assets/postman-result1.jpeg)
+![Postman Sonuçları 2](assets/postman-result2.jpeg)
+![Postman Sonuçları 3](assets/postman-result3.jpeg)
